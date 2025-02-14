@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_PR29kOruEe-kWcpEDE2XjQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NHZJwOrxEe-kWcpEDE2XjQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_NHZJwOrxEe-kWcpEDE2XjQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

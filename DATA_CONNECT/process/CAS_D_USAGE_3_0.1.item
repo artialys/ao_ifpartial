@@ -265,59 +265,59 @@
     <elementParameter field="TABLE" name="CONDITIONS">
       <elementValue elementRef="INPUT_COLUMN" value="DateDeReglement" id="0"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="1"/>
-      <elementValue elementRef="OPERATOR" value="==" id="2"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="2"/>
       <elementValue elementRef="RVALUE" value="5" id="3"/>
       <elementValue elementRef="INPUT_COLUMN" value="ReferenceDeLaRemise" id="4"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="5"/>
-      <elementValue elementRef="OPERATOR" value="==" id="6"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="6"/>
       <elementValue elementRef="RVALUE" value="7" id="7"/>
       <elementValue elementRef="INPUT_COLUMN" value="CodeGuichetEmetteur" id="8"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="9"/>
-      <elementValue elementRef="OPERATOR" value="==" id="10"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="10"/>
       <elementValue elementRef="RVALUE" value="5" id="11"/>
       <elementValue elementRef="INPUT_COLUMN" value="NumeroCompteEmetteur" id="12"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="13"/>
-      <elementValue elementRef="OPERATOR" value="==" id="14"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="14"/>
       <elementValue elementRef="RVALUE" value="11" id="15"/>
       <elementValue elementRef="INPUT_COLUMN" value="CodeBanqueEmetteur" id="16"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="17"/>
-      <elementValue elementRef="OPERATOR" value="==" id="18"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="18"/>
       <elementValue elementRef="RVALUE" value="5" id="19"/>
       <elementValue elementRef="INPUT_COLUMN" value="BICEmetteur" id="20"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="21"/>
-      <elementValue elementRef="OPERATOR" value="==" id="22"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="22"/>
       <elementValue elementRef="RVALUE" value="11" id="23"/>
       <elementValue elementRef="INPUT_COLUMN" value="NumeroEmetteur" id="24"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="25"/>
-      <elementValue elementRef="OPERATOR" value="==" id="26"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="26"/>
       <elementValue elementRef="RVALUE" value="6" id="27"/>
       <elementValue elementRef="INPUT_COLUMN" value="Domiciliation" id="28"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="29"/>
-      <elementValue elementRef="OPERATOR" value="==" id="30"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="30"/>
       <elementValue elementRef="RVALUE" value="20" id="31"/>
       <elementValue elementRef="INPUT_COLUMN" value="CodeGuichetDestinataire" id="32"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="33"/>
-      <elementValue elementRef="OPERATOR" value="==" id="34"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="34"/>
       <elementValue elementRef="RVALUE" value="5" id="35"/>
       <elementValue elementRef="INPUT_COLUMN" value="NumeroCompteDestinataire" id="36"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="37"/>
-      <elementValue elementRef="OPERATOR" value="==" id="38"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="38"/>
       <elementValue elementRef="RVALUE" value="11" id="39"/>
       <elementValue elementRef="INPUT_COLUMN" value="MontantRecipient" id="40"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="41"/>
-      <elementValue elementRef="OPERATOR" value="==" id="42"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="42"/>
       <elementValue elementRef="RVALUE" value="16" id="43"/>
       <elementValue elementRef="INPUT_COLUMN" value="CodeBanqueDestinataire" id="44"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="45"/>
-      <elementValue elementRef="OPERATOR" value="==" id="46"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="46"/>
       <elementValue elementRef="RVALUE" value="5" id="47"/>
       <elementValue elementRef="INPUT_COLUMN" value="BICDestinataire" id="48"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="49"/>
-      <elementValue elementRef="OPERATOR" value="==" id="50"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="50"/>
       <elementValue elementRef="RVALUE" value="11" id="51"/>
       <elementValue elementRef="INPUT_COLUMN" value="MontantTotal" id="52"/>
       <elementValue elementRef="FUNCTION" value="$source == null? false : $source.length() $operator $target" id="53"/>
-      <elementValue elementRef="OPERATOR" value="==" id="54"/>
+      <elementValue elementRef="OPERATOR" value="&lt;=" id="54"/>
       <elementValue elementRef="RVALUE" value="16" id="55"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
@@ -386,7 +386,36 @@
     <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateDeReglement" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ReferenceDeLaRemise" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeGuichetEmetteur" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NumeroCompteEmetteur" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeBanqueEmetteur" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BICEmetteur" id="10"/>
+      <elementValue elementRef="LENGTH" value="10" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NumeroEmetteur" id="12"/>
+      <elementValue elementRef="LENGTH" value="10" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Domiciliation" id="14"/>
+      <elementValue elementRef="LENGTH" value="10" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeGuichetDestinataire" id="16"/>
+      <elementValue elementRef="LENGTH" value="10" id="17"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NumeroCompteDestinataire" id="18"/>
+      <elementValue elementRef="LENGTH" value="10" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MontantRecipient" id="20"/>
+      <elementValue elementRef="LENGTH" value="10" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeBanqueDestinataire" id="22"/>
+      <elementValue elementRef="LENGTH" value="10" id="23"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BICDestinataire" id="24"/>
+      <elementValue elementRef="LENGTH" value="10" id="25"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MontantTotal" id="26"/>
+      <elementValue elementRef="LENGTH" value="10" id="27"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -521,7 +550,7 @@
       <column comment="" key="false" length="5" name="MontantTotal" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="5" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="header">
         <mapperTableEntries name="start" expression="&quot;03&quot;" type="id_String" nullable="true"/>
@@ -910,7 +939,7 @@
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/dev_talend/CAS_D_SAGE/CAS_D_USAGE_3/rejet.xls&quot;"/>
     <elementParameter field="TEXT" name="SHEETNAME" value="&quot;lignes rejeter&quot;"/>
-    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="APPEND_FILE" value="false"/>
     <elementParameter field="CHECK" name="APPEND_SHEET" value="false" show="false"/>
     <elementParameter field="CHECK" name="FIRST_CELL_Y_ABSOLUTE" value="false"/>
