@@ -36,6 +36,10 @@
     "id" : "_H1M6oOyiEe-TALZ1csH5_w - cas_2",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_zyGmYO1qEe-NgsYJ4SYQfw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
