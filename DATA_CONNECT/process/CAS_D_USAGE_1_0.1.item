@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="http://192.168.10.107:28080/data/output_teams_rh.dat" internalId="_c8UCYO0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_SAGE/paie_RH/" internalId="_4MDKIO0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="fichier_source" prompt="fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="output_teams_rh.txt" internalId="_4MDKIe0SEe-ZrNOzZF6PRQ"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PRD">
+    <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_c8UCYe0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_4MDKIu0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="fichier_source" prompt="fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_4MDKI-0SEe-ZrNOzZF6PRQ"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -135,7 +144,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="1040">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;END&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="42"/>
@@ -146,11 +155,11 @@
   </node>
   <node componentName="tHttpRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHttpRequest_1" show="false"/>
-    <elementParameter field="TEXT" name="URI" value="&quot;http://192.168.10.107:28080/data/output_teams_rh.dat&quot;"/>
+    <elementParameter field="TEXT" name="URI" value="context.lien_fichier_source"/>
     <elementParameter field="CLOSED_LIST" name="METHOD_CHOSED" value="GET"/>
     <elementParameter field="FILE" name="POST_PARAMS_FROM_FILE" value="" show="false"/>
     <elementParameter field="CHECK" name="OUT_TO_FILE" value="true"/>
-    <elementParameter field="FILE" name="OUT_FILE_NAME" value="&quot;C:/dev_talend/CAS_D_SAGE/paie_RH/output_teams_rh.txt&quot;"/>
+    <elementParameter field="FILE" name="OUT_FILE_NAME" value="context.rep_source+context.fichier_source"/>
     <elementParameter field="CHECK" name="CREATE_DIRS" value="true"/>
     <elementParameter field="TABLE" name="HEADERS"/>
     <elementParameter field="CHECK" name="NEED_AUTHENTICATION" value="false"/>
@@ -174,7 +183,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputPositional_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/dev_talend/CAS_D_SAGE/paie_RH/output_teams_rh.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.rep_source+context.fichier_source"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="ADVANCED_OPTION" value="false"/>
     <elementParameter field="TEXT" name="PATTERN" value="&quot;6,6,6,1,20,6,23,6&quot;"/>
@@ -245,6 +254,7 @@
     </elementParameter>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Fichier source&lt;/b>"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputPositional_1">
       <column comment="" key="false" length="6" name="Code_rubrique_de_paie" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="6" usefulColumn="true"/>
@@ -323,14 +333,15 @@
     <elementParameter field="CHECK" name="QUOTE_NULL_VALUES" value="true" show="false"/>
     <elementParameter field="CHECK" name="ALLOW_EMPTY_STRINGS" value="false"/>
     <elementParameter field="CHECK" name="USE_SCIENTIFIC_NOTATION" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Construction du json&lt;/b>"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWriteJSONField_1">
       <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="640">
+  <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;192.168.10.107:25000/dump/&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://192.168.10.107:25000/dump/&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
@@ -349,7 +360,7 @@
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
     <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+    <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="false"/>
     <elementParameter field="CHECK" name="REUSE_SSL_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
@@ -374,6 +385,7 @@
     <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:EK9fuD5YP7N7rkKZyhnqyxwxrRe8NhNFTjpQHV3R" show="false"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Envoie vers API&lt;/b>"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRESTClient_1">
       <column comment="" key="false" length="-1" name="json" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -411,6 +423,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Affichage console&lt;/b>&lt;br>response"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
       <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -439,6 +452,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="&lt;b>Affichage console&lt;/b>&lt;br>Erreur"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_2">
       <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -533,8 +547,10 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputPositional_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Lecture de données depuis le fichier source +construction du corps json +envoie vers l'API"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
 </talendfile:ProcessType>
