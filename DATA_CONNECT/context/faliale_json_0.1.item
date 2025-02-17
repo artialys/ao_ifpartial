@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_9wryYO1JEe-jIIDuY3r0Pw" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_9wryYe1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_FilePath" prompt="faliale_json_FilePath?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_2/in/case_352_filiale_3.json"/>
+    <contextParameter xmi:id="_9wryYu1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_Encoding" prompt="faliale_json_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_9wryY-1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_XPathQuery" prompt="faliale_json_XPathQuery?" promptNeeded="false" repositoryContextId="" type="id_String" value="$[*]"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_9wryZO1JEe-jIIDuY3r0Pw" confirmationNeeded="false" hide="false" name="PRD">
+    <contextParameter xmi:id="_9wryZe1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_FilePath" prompt="faliale_json_FilePath?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_2/in/case_352_filiale_3.json"/>
+    <contextParameter xmi:id="_9wryZu1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_Encoding" prompt="faliale_json_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_9wryZ-1JEe-jIIDuY3r0Pw" comment="" name="faliale_json_XPathQuery" prompt="faliale_json_XPathQuery?" promptNeeded="false" repositoryContextId="" type="id_String" value="$[*]"/>
+  </talendfile:ContextType>
+</xmi:XMI>
