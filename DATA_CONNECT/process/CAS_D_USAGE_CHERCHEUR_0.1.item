@@ -5,10 +5,10 @@
     <contextParameter comment="" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vgBb0e3bEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="DECESION" prompt="DECESION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_TlnxAO3cEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="lien_source" prompt="lien_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://ifpen.artialys.fr/files/data/" internalId="_ws8lIO3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_fichier_source" prompt="rep_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/in/" internalId="_ws8lIe3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_fichier_cible" prompt="rep_fichier_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/out/" internalId="_ws8lIu3fEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_fichier_source" prompt="rep_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/in/" internalId="_ws8lIe3fEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_fichier_cible" prompt="rep_fichier_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/out/" internalId="_ws8lIu3fEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="NOM_FICHIER" prompt="NOM_FICHIER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ws8lI-3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_scripte_python" prompt="rep_scripte_python?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/script/" internalId="_fOy58O3kEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_scripte_python" prompt="rep_scripte_python?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/script/" internalId="_fOy58O3kEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="NOM_SCRIPT" prompt="NOM_SCRIPT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="extract_header.py" internalId="_fOy58e3kEe-89PNvy-iO5g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
@@ -16,10 +16,10 @@
     <contextParameter comment="" name="XMLParam" prompt="XMLParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_vgBb0-3bEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="DECESION" prompt="DECESION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_TlnxAe3cEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="lien_source" prompt="lien_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://ifpen.artialys.fr/files/data/" internalId="_ws8lJO3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_fichier_source" prompt="rep_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/in/" internalId="_ws8lJe3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_fichier_cible" prompt="rep_fichier_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/out/" internalId="_ws8lJu3fEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_fichier_source" prompt="rep_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/in/" internalId="_ws8lJe3fEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_fichier_cible" prompt="rep_fichier_cible?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/out/" internalId="_ws8lJu3fEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="NOM_FICHIER" prompt="NOM_FICHIER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ws8lJ-3fEe-89PNvy-iO5g"/>
-    <contextParameter comment="" name="rep_scripte_python" prompt="rep_scripte_python?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/script/" internalId="_fOy58u3kEe-89PNvy-iO5g"/>
+    <contextParameter comment="" name="rep_scripte_python" prompt="rep_scripte_python?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_CHERCHEUR/script/" internalId="_fOy58u3kEe-89PNvy-iO5g"/>
     <contextParameter comment="" name="NOM_SCRIPT" prompt="NOM_SCRIPT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="extract_header.py" internalId="_fOy58-3kEe-89PNvy-iO5g"/>
   </context>
   <parameters>

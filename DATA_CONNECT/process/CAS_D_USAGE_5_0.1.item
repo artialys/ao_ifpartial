@@ -3,15 +3,15 @@
   <context confirmationNeeded="false" hide="false" name="DEV">
     <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://static.data.gouv.fr/resources/villes-de-france/20220928-173607/cities.csv" internalId="_mg020O0YEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="lien_API_meteo" prompt="lien_API_meteo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api.met.no/weatherapi/locationforecast/2.0/compact?" internalId="_mg020e0YEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_5/in/" internalId="_mg020u0YEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_5/out/" internalId="_mg020-0YEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_5/in/" internalId="_mg020u0YEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_5/out/" internalId="_mg020-0YEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="pram_api" prompt="pram_api?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MyWeatherApp/1.0 (myemail@example.com)" internalId="_taqUMO4PEe-3Mr_qLP2Qlw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
     <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://static.data.gouv.fr/resources/villes-de-france/20220928-173607/cities.csv" internalId="_mg021O0YEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="lien_API_meteo" prompt="lien_API_meteo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api.met.no/weatherapi/locationforecast/2.0/compact?" internalId="_mg021e0YEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_5/in/" internalId="_mg021u0YEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_5/out/" internalId="_mg021-0YEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_5/in/" internalId="_mg021u0YEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_5/out/" internalId="_mg021-0YEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="pram_api" prompt="pram_api?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MyWeatherApp/1.0 (myemail@example.com)" internalId="_taqUMe4PEe-3Mr_qLP2Qlw"/>
   </context>
   <parameters>

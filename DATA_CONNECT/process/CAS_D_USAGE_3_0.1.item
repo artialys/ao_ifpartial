@@ -2,11 +2,11 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="DEV">
     <contextParameter comment="" name="lien_donnees_source" prompt="lien_donnees_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" https://ifpen.artialys.fr/files/data/case_353.json" internalId="_6MI9IO0TEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_3/out/" internalId="_RzpZ8O0UEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_3/out/" internalId="_RzpZ8O0UEe-ZrNOzZF6PRQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
     <contextParameter comment="" name="lien_donnees_source" prompt="lien_donnees_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_6MI9Ie0TEe-ZrNOzZF6PRQ"/>
-    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_3/out/" internalId="_RzpZ8e0UEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="rep_out" prompt="rep_out?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_3/out/" internalId="_RzpZ8e0UEe-ZrNOzZF6PRQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
