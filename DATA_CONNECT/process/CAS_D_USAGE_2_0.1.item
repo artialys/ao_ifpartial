@@ -495,7 +495,7 @@
       <column comment="" key="false" length="4" name="Poste" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="(!CustomStringUtiles.isEmpty(row1.Nom) &amp;&amp; &#xA;!Relational.ISNULL(row1.Nom))&amp;&amp; &#xA;(!CustomStringUtiles.isEmpty(row1.Prenom) &amp;&amp; &#xA;!Relational.ISNULL(row1.Prenom)) &amp;&amp;&#xA;!Relational.ISNULL(row3.nom_service ) &amp;&amp;&#xA;row1.Date_de_naissance != null &amp;&amp;  row1.Date_d_entree_dans_le_poste != null &amp;&amp; row1.Date_de_debut_de_contrat != null" activateExpressionFilter="true" activateCondensedTool="true">
         <mapperTableEntries name="Matricule" expression="row1.Matricule " type="id_String" nullable="true"/>
@@ -1198,7 +1198,7 @@
       <column comment="" key="false" length="-1" name="NOM_FICHIER" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-13" offsetLabelY="3" posX="1760" posY="840">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-13" offsetLabelY="3" posX="1720" posY="840">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -1515,7 +1515,7 @@
       <column comment="" key="false" length="-1" name="NOM_FICHIER" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-24" offsetLabelY="-1" posX="1760" posY="1000">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-24" offsetLabelY="-1" posX="1720" posY="1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -1576,7 +1576,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/dev_talend/CAS_D_USAGES/CAS_D_USAGE_2/in/case_352_filiale_1.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.rep_fichiers_sources+&quot;case_352_filiale_1.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -1788,7 +1788,7 @@
       <column comment="" key="false" length="-1" name="NOM_FICHIER" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-8" offsetLabelY="3" posX="1760" posY="1160">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="-8" offsetLabelY="3" posX="1720" posY="1160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
