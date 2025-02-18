@@ -4,7 +4,7 @@
   <contextParameter xmi:id="_Z2P7ce01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Login" prompt="demo_db_postgree_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="demo_user"/>
   <contextParameter xmi:id="_Z2P7cu01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_AdditionalParams" prompt="demo_db_postgree_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_Z2P7c-01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Schema" prompt="demo_db_postgree_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
-  <contextParameter xmi:id="_Z2P7dO01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Server" prompt="demo_db_postgree_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ec2-15-237-216-75.eu-west-3.compute.amazonaws.com"/>
+  <contextParameter xmi:id="_Z2P7dO01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Server" prompt="demo_db_postgree_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ifpen.artialys.fr"/>
   <contextParameter xmi:id="_Z2P7de01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Database" prompt="demo_db_postgree_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="demo_db"/>
   <contextParameter xmi:id="_Z2P7du01Ee-jIIDuY3r0Pw" comment="" name="demo_db_postgree_Port" prompt="demo_db_postgree_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25432"/>
 </talendfile:ContextType>
