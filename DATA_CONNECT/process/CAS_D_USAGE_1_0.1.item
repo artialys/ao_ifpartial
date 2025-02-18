@@ -4,11 +4,13 @@
     <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://ifpen.artialys.fr/files/data/output_teams_rh.dat" internalId="_c8UCYO0SEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_1/in/" internalId="_4MDKIO0SEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="fichier_source" prompt="fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="output_teams_rh.txt" internalId="_4MDKIe0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="lien_api" prompt="lien_api?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="http://192.168.10.107:25000/dump/" internalId="_qer_YO4cEe-92J2GVXxhGw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PRD">
     <contextParameter comment="" name="lien_fichier_source" prompt="lien_fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://ifpen.artialys.fr/files/data/output_teams_rh.dat" internalId="_c8UCYe0SEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="rep_source" prompt="rep_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/work_talend/CAS_D_USAGES/CAS_D_USAGE_1/in/" internalId="_4MDKIu0SEe-ZrNOzZF6PRQ"/>
     <contextParameter comment="" name="fichier_source" prompt="fichier_source?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="output_teams_rh.txt" internalId="_4MDKI-0SEe-ZrNOzZF6PRQ"/>
+    <contextParameter comment="" name="lien_api" prompt="lien_api?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="http://192.168.10.107:25000/dump/" internalId="_qer_Ye4cEe-92J2GVXxhGw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -341,7 +343,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://192.168.10.107:25000/dump/&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="context.lien_api"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="POST"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>

@@ -495,7 +495,7 @@
       <column comment="" key="false" length="4" name="Poste" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out" expressionFilter="(!CustomStringUtiles.isEmpty(row1.Nom) &amp;&amp; &#xA;!Relational.ISNULL(row1.Nom))&amp;&amp; &#xA;(!CustomStringUtiles.isEmpty(row1.Prenom) &amp;&amp; &#xA;!Relational.ISNULL(row1.Prenom)) &amp;&amp;&#xA;!Relational.ISNULL(row3.nom_service ) &amp;&amp;&#xA;row1.Date_de_naissance != null &amp;&amp;  row1.Date_d_entree_dans_le_poste != null &amp;&amp; row1.Date_de_debut_de_contrat != null" activateExpressionFilter="true" activateCondensedTool="true">
         <mapperTableEntries name="Matricule" expression="row1.Matricule " type="id_String" nullable="true"/>
@@ -570,7 +570,7 @@
         <mapperTableEntries name="Ville" expression="row1.Ville " type="id_String" nullable="true"/>
         <mapperTableEntries name="Pays" expression="row1.Pays " type="id_String" nullable="true"/>
         <mapperTableEntries name="Numero_de_securite_sociale" expression="row1.Numero_de_securite_sociale " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Service" expression="row1.Service+&quot; : nom de service faux ou inixistant dans la table de correspondance.&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Service" expression="row1.Service+&quot; : nom de service faux ou inexistant dans la table de correspondance.&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="Nom_emploi" expression="row1.Nom_emploi " type="id_String" nullable="true"/>
         <mapperTableEntries name="Date_d_entree_dans_le_poste" expression="row1.Date_d_entree_dans_le_poste " type="id_Date" nullable="true"/>
         <mapperTableEntries name="Date_de_debut_de_contrat" expression="row1.Date_de_debut_de_contrat " type="id_Date" nullable="true"/>
