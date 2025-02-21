@@ -910,7 +910,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBRollback_1"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-120" posY="2400">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-120" posY="2440">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_7" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Erreur lors de l'enregestrement du contenue de fichier json sous forme de doccument&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
