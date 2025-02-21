@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendNoSQLMetadata:NoSQLConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmi:id="_FGn9oO-ZEe-UjftQxC4yuw" name="server_mongo" label="server_mongo" dbType="MONGODB">
+  <attributes xmi:id="_rh3a4O-hEe-UjftQxC4yuw" key="DB_VERSION" value="MONGODB_4_4_X"/>
+  <attributes xmi:id="_rh3a4e-hEe-UjftQxC4yuw" key="HOST" value="35.180.121.81"/>
+  <attributes xmi:id="_rh3a4u-hEe-UjftQxC4yuw" key="PORT" value="27017"/>
+  <attributes xmi:id="_rh3a4--hEe-UjftQxC4yuw" key="DATABASE" value="ifpen_db"/>
+  <attributes xmi:id="_rh3a5O-hEe-UjftQxC4yuw" key="USE_CONNECTION_STRING" value="false"/>
+  <attributes xmi:id="_rh3a5e-hEe-UjftQxC4yuw" key="CONNECTION_STRING" value=""/>
+  <attributes xmi:id="_rh3a5u-hEe-UjftQxC4yuw" key="REQUIRED_AUTHENTICATION" value="true"/>
+  <attributes xmi:id="_rh3a5--hEe-UjftQxC4yuw" key="USERNAME" value="ifpen"/>
+  <attributes xmi:id="_rh3a6O-hEe-UjftQxC4yuw" key="PASSWORD" value="enc:system.encryption.key.v1:xRW8llTb1tqglEe9CGy8hQSPP4+TpZ2rAJvWCeVPR8eKAdohpQ=="/>
+  <attributes xmi:id="_rh3a6e-hEe-UjftQxC4yuw" key="REQUIRED_ENCRYPTION" value="false"/>
+  <attributes xmi:id="_rh3a6u-hEe-UjftQxC4yuw" key="USE_REPLICA_SET" value="false"/>
+  <attributes xmi:id="_rh3a6--hEe-UjftQxC4yuw" key="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+  <attributes xmi:id="_rh4B8O-hEe-UjftQxC4yuw" key="SET_AUTHENTICATION_DATABASE" value="false"/>
+  <attributes xmi:id="_rh4B8e-hEe-UjftQxC4yuw" key="AUTHENTICATION_DATABASE" value=""/>
+  <attributes xmi:id="_rh4B8u-hEe-UjftQxC4yuw" key="KRB_USER_PRINCIPAL" value=""/>
+  <attributes xmi:id="_rh4B8--hEe-UjftQxC4yuw" key="KRB_REALM" value=""/>
+  <attributes xmi:id="_rh4B9O-hEe-UjftQxC4yuw" key="KRB_KDC" value=""/>
+  <attributes xmi:id="_rh4B9e-hEe-UjftQxC4yuw" key="SSLPEMKEYFILE" value=""/>
+  <attributes xmi:id="_rh4B9u-hEe-UjftQxC4yuw" key="X509_CERT_KEYSTORE_PASSWORD" value=""/>
+  <attributes xmi:id="_rh4B9--hEe-UjftQxC4yuw" key="USE_SSLCAFILE" value="false"/>
+  <attributes xmi:id="_rh4B-O-hEe-UjftQxC4yuw" key="SSLCAFILE" value=""/>
+  <attributes xmi:id="_rh4B-e-hEe-UjftQxC4yuw" key="X509_CERT_AUTH_TRUSTSTORE_PASSWORD" value=""/>
+  <attributes xmi:id="_rh4B-u-hEe-UjftQxC4yuw" key="REPLICA_SET" value="[]"/>
+</TalendNoSQLMetadata:NoSQLConnection>

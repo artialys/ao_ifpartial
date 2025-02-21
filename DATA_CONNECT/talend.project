@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_Ldu4kOrWEe-JIp3aiBj1qg" label="DATA_CONNECT" description="Projet Data Connect IFPEN." language="java" technicalLabel="DATA_CONNECT" author="_Ldu4kerWEe-JIp3aiBj1qg" productVersion="Talend Cloud Data Fabric-8.0.1.20250126_0750-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/artialys/ao_ifpartial.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
-    <componentsSettings xmi:id="_59VSAOrXEe-2UeQ7AaoLYQ" name="DI|tHashOutput" family="Technical"/>
-    <componentsSettings xmi:id="_59eb8OrXEe-2UeQ7AaoLYQ" name="DI|tHashInput" family="Technical"/>
     <migrationTask xmi:id="_LfZFcOrWEe-JIp3aiBj1qg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Ldu4kerWEe-JIp3aiBj1qg" login="hermanafoulatsan1@eval14086.talend.com" firstName="Herman" lastName="Afoulatsan" type="DQ"/>

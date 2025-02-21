@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendNoSQLMetadata:NoSQLConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmi:id="_Yq2gQO3uEe-H_8b09_uyxA" name="mongodb" label="mongodb" dbType="MONGODB">
-  <attributes xmi:id="_Yq2gQe3uEe-H_8b09_uyxA" key="DB_VERSION" value="MONGODB_4_4_X"/>
-  <attributes xmi:id="_Yq2gQu3uEe-H_8b09_uyxA" key="HOST" value="172.31.2.12"/>
-  <attributes xmi:id="_Yq2gQ-3uEe-H_8b09_uyxA" key="PORT" value="27017"/>
-  <attributes xmi:id="_Yq2gRO3uEe-H_8b09_uyxA" key="DATABASE" value=""/>
-  <attributes xmi:id="_Yq2gRe3uEe-H_8b09_uyxA" key="USE_CONNECTION_STRING" value="false"/>
-  <attributes xmi:id="_Yq2gRu3uEe-H_8b09_uyxA" key="CONNECTION_STRING" value=""/>
-  <attributes xmi:id="_Yq2gR-3uEe-H_8b09_uyxA" key="REQUIRED_AUTHENTICATION" value="true"/>
-  <attributes xmi:id="_Yq2gSO3uEe-H_8b09_uyxA" key="USERNAME" value="demo_user"/>
-  <attributes xmi:id="_Yq2gSe3uEe-H_8b09_uyxA" key="PASSWORD" value="enc:system.encryption.key.v1:CJBBgPbEJmx1bEAwW2fBUNoAwb8OaOcD3LPuetapgSEKmFD5"/>
-  <attributes xmi:id="_Yq2gSu3uEe-H_8b09_uyxA" key="REQUIRED_ENCRYPTION" value="false"/>
-  <attributes xmi:id="_Yq2gS-3uEe-H_8b09_uyxA" key="USE_REPLICA_SET" value="false"/>
-  <attributes xmi:id="_Yq2gTO3uEe-H_8b09_uyxA" key="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
-  <attributes xmi:id="_Yq2gTe3uEe-H_8b09_uyxA" key="SET_AUTHENTICATION_DATABASE" value="false"/>
-  <attributes xmi:id="_Yq2gTu3uEe-H_8b09_uyxA" key="AUTHENTICATION_DATABASE" value=""/>
-  <attributes xmi:id="_Yq2gT-3uEe-H_8b09_uyxA" key="KRB_USER_PRINCIPAL" value=""/>
-  <attributes xmi:id="_Yq2gUO3uEe-H_8b09_uyxA" key="KRB_REALM" value=""/>
-  <attributes xmi:id="_Yq2gUe3uEe-H_8b09_uyxA" key="KRB_KDC" value=""/>
-  <attributes xmi:id="_Yq2gUu3uEe-H_8b09_uyxA" key="SSLPEMKEYFILE" value=""/>
-  <attributes xmi:id="_Yq2gU-3uEe-H_8b09_uyxA" key="X509_CERT_KEYSTORE_PASSWORD" value=""/>
-  <attributes xmi:id="_Yq2gVO3uEe-H_8b09_uyxA" key="USE_SSLCAFILE" value="false"/>
-  <attributes xmi:id="_Yq2gVe3uEe-H_8b09_uyxA" key="SSLCAFILE" value=""/>
-  <attributes xmi:id="_Yq2gVu3uEe-H_8b09_uyxA" key="X509_CERT_AUTH_TRUSTSTORE_PASSWORD" value=""/>
-  <attributes xmi:id="_Yq2gV-3uEe-H_8b09_uyxA" key="REPLICA_SET" value="[]"/>
-</TalendNoSQLMetadata:NoSQLConnection>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_Yq2gQO3uEe-H_8b09_uyxA" name="mongodb" id="_YqpE4O3uEe-H_8b09_uyxA" label="mongodb" dataPackage="_HdvVEO-QEe-UjftQxC4yuw _HdvVFO-QEe-UjftQxC4yuw _HdvVFe-QEe-UjftQxC4yuw _HdvVFu-QEe-UjftQxC4yuw" dbType="MONGODB">
+    <attributes xmi:id="_mz73sO-XEe-UjftQxC4yuw" key="DB_VERSION" value="MONGODB_4_4_X"/>
+    <attributes xmi:id="_mz73se-XEe-UjftQxC4yuw" key="HOST" value="localhost"/>
+    <attributes xmi:id="_mz73su-XEe-UjftQxC4yuw" key="PORT" value="27017"/>
+    <attributes xmi:id="_mz73s--XEe-UjftQxC4yuw" key="DATABASE" value="Talend"/>
+    <attributes xmi:id="_mz73tO-XEe-UjftQxC4yuw" key="USE_CONNECTION_STRING" value="false"/>
+    <attributes xmi:id="_mz73te-XEe-UjftQxC4yuw" key="CONNECTION_STRING" value=""/>
+    <attributes xmi:id="_mz73tu-XEe-UjftQxC4yuw" key="REQUIRED_AUTHENTICATION" value="true"/>
+    <attributes xmi:id="_mz73t--XEe-UjftQxC4yuw" key="USERNAME" value="dawin_talend"/>
+    <attributes xmi:id="_mz73uO-XEe-UjftQxC4yuw" key="PASSWORD" value="enc:system.encryption.key.v1:LJcEWPfSw0VvLp+ULto7j88fcdOOWn/WfbinAmXAag=="/>
+    <attributes xmi:id="_mz73ue-XEe-UjftQxC4yuw" key="REQUIRED_ENCRYPTION" value="false"/>
+    <attributes xmi:id="_mz8ewO-XEe-UjftQxC4yuw" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_mz8ewe-XEe-UjftQxC4yuw" key="AUTHENTICATION_MECHANISM" value="NEGOTIATE_MEC"/>
+    <attributes xmi:id="_mz8ewu-XEe-UjftQxC4yuw" key="SET_AUTHENTICATION_DATABASE" value="false"/>
+    <attributes xmi:id="_mz8ew--XEe-UjftQxC4yuw" key="AUTHENTICATION_DATABASE" value=""/>
+    <attributes xmi:id="_mz8exO-XEe-UjftQxC4yuw" key="KRB_USER_PRINCIPAL" value=""/>
+    <attributes xmi:id="_mz8exe-XEe-UjftQxC4yuw" key="KRB_REALM" value=""/>
+    <attributes xmi:id="_mz8exu-XEe-UjftQxC4yuw" key="KRB_KDC" value=""/>
+    <attributes xmi:id="_mz8ex--XEe-UjftQxC4yuw" key="SSLPEMKEYFILE" value=""/>
+    <attributes xmi:id="_mz8eyO-XEe-UjftQxC4yuw" key="X509_CERT_KEYSTORE_PASSWORD" value=""/>
+    <attributes xmi:id="_mz8eye-XEe-UjftQxC4yuw" key="USE_SSLCAFILE" value="false"/>
+    <attributes xmi:id="_mz8eyu-XEe-UjftQxC4yuw" key="SSLCAFILE" value=""/>
+    <attributes xmi:id="_mz8ey--XEe-UjftQxC4yuw" key="X509_CERT_AUTH_TRUSTSTORE_PASSWORD" value=""/>
+    <attributes xmi:id="_mz9F0O-XEe-UjftQxC4yuw" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_HdvVEO-QEe-UjftQxC4yuw" name="Talend" dataManager="_Yq2gQO3uEe-H_8b09_uyxA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_HdvVEe-QEe-UjftQxC4yuw" name="users" id="_GwYf0O-QEe-UjftQxC4yuw" label="users">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HdvVEu-QEe-UjftQxC4yuw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HdvVE--QEe-UjftQxC4yuw" name="name" label="name" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_HdvVFO-QEe-UjftQxC4yuw" name="admin" dataManager="_Yq2gQO3uEe-H_8b09_uyxA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_HdvVFe-QEe-UjftQxC4yuw" name="config" dataManager="_Yq2gQO3uEe-H_8b09_uyxA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_HdvVFu-QEe-UjftQxC4yuw" name="local" dataManager="_Yq2gQO3uEe-H_8b09_uyxA"/>
+</xmi:XMI>
